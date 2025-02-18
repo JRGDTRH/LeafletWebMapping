@@ -1,0 +1,21 @@
+.info.legend {
+    background-color: white; /* White background */
+    border: 1px solid black; /* Black border */
+    padding: 10px; /* Add some padding around the content */
+    opacity: 0.99; /* Optional: Adjust opacity */
+    border-radius: 5px; /* Optional: Rounded corners */
+	display: none;
+}
+
+.info.legend h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.info.legend img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Makes the image a block element so it takes up the full width */
+    margin: 0 auto; /* Centers the image */
+}

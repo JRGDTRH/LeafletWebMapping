@@ -1,0 +1,28 @@
+#map {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+#time-controls {  /* Correct selector: #time-controls */
+    position: absolute;
+    bottom: 20px; /* Adjust as needed */
+    left: 20px;   /* Adjust as needed */
+    z-index: 400;
+    display: flex;       /* Use flexbox for horizontal layout */
+    flex-direction: row; /* Arrange items horizontally */
+    align-items: center; /* Vertically align items */
+}
+
+#time-controls select { /* Target the <select> inside #time-controls */
+    margin-right: 10px; /* Add some spacing between elements */
+}
+
+#time-controls button { /* Target the <button>s inside #time-controls */
+    margin: 0 5px; /* Add some spacing between buttons */
+    padding: 5px 10px;
+}
+
+/* Any other styles you need here */

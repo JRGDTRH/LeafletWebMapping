@@ -1,0 +1,35 @@
+.nav-buttons {
+    display: flex; /* Ensure this is set to flex */
+    flex-direction: row; /* Change to row */
+    justify-content: center; /* Center justify */
+    align-items: center; /* Align items to center */
+    gap: 10px; /* Increase gap between buttons */
+    background: white;
+    padding: 10px; /* Reduce vertical padding */
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    bottom: 17px; /* Position above the leaflet velocity text */
+    left: 3px; /* Align to the left */
+}
+
+.hidden {
+    display: none; /* Initially hide the navigation buttons */
+}
+
+.nav-buttons button {
+    padding: 5px 10px;
+    border: none;
+    background: #5d5f61;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.nav-buttons button:hover {
+    background: #2c2d2d;
+}
+
+#timeSliceDisplay {
+    white-space: nowrap; /* Ensure text does not wrap */
+}
