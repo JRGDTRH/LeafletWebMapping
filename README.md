@@ -26,6 +26,8 @@ More of a personal project for continued learning in non areas of expertise and 
 
 - **Base Maps**: Includes Esri World Imagery, Esri World Dark Gray, and Open Street Map.
 - **Overlays**: Includes weather radar, apparent temperature, and wind particles.
+  Weather Radar and Apparent Temperature Sourced from - NOAA nowCOAST wms layers.
+  Wind Particles generated from - ncep_global grib data from PacIOOS erddap server
 - **Drawing Tools**: Allows users to draw shapes on the map.
 - **Time-based Navigation**: Provides navigation buttons to move through different time slices of weather data. Custom built due to the inability to get existing libraries functioning correctly.
 
