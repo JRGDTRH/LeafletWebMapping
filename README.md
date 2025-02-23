@@ -19,7 +19,6 @@ The github pages is not optimized for mobile view at all. Best viewed on desktop
   Sourced from (https://github.com/IrishMarineInstitute/erddap-js)
 - **css/buttons.css**: Styles for navigation buttons in terms of moving through time slices.
 - **css/leaflet-velocity.min.css**: Minified CSS for the Leaflet Velocity plugin.
-- **css/leaflet-velocityOG.min.css**: Another minified CSS for the Leaflet Velocity plugin.
 - **css/legend.css**: Styles for the legend control.
 - **css/loading.css**: Styles for the loading icon.
 - **css/styles.css**: General styles for the map and controls.
