@@ -11,7 +11,7 @@ More of a personal project for continued learning in non areas of expertise and 
 
 - **index.html**: The main HTML file that sets up the structure of the web page and includes necessary scripts and stylesheets.
 - **scripts/app.js**: The main JavaScript file that initializes the map, adds base maps, overlays, and interactive features.
-- **erddap.js**: Ability to leverage publicly available datasets through Erddap servers.
+- **dist/erddap.js**: Ability to leverage publicly available datasets through Erddap servers.
   Sourced from (https://github.com/IrishMarineInstitute/erddap-js)
 - **css/buttons.css**: Styles for navigation buttons in terms of moving through time slices.
 - **css/leaflet-velocity.min.css**: Minified CSS for the Leaflet Velocity plugin.
