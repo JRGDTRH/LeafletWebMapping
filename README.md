@@ -1,6 +1,8 @@
 # LeafletWebMapping
 More of a personal project for continued learning in non areas of expertise and not for any operation use. Heavily leveraged AI assistance, in this case, ChatGPT and Gemini through the VSCode Copilot integration. Many kudos to https://github.com/socib/ , their leaflet demos were very useful and inspiring for multiple ideas. Ability to utilize Erddap datasets for wind velocity vectors from https://github.com/IrishMarineInstitute/erddap-js . Most, if not all functions in this web map leveraged existing libraries and were not altered directly, though some examples and code required some dataset adjustments due to sources no longer being active.
 
+The github pages is not optimized for mobile view at all. Best viewed on desktop.
+
 # Future Additions
 - Segmenting app.js into separate modules (attempted, but did not want to deal with CORS 
   policy issues)
